@@ -54,7 +54,7 @@ class AWS():
             value="tr",
         )
     
-        services: dict[str, bool] = {}
+        services = {}
     
         for row in rows:
             service: str = row.find_elements(
