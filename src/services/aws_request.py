@@ -8,7 +8,7 @@ from boto3 import Session
 from src.interfaces.service import Service
 
 
-class Amazon(Service):
+class AWSRequest(Service):
     response: dict = {}
 
     session: Session = Session()
