@@ -71,7 +71,7 @@ class AWSRequest(Service):
             cls.parse_rss_feed(rss_feed_url)
 
     @classmethod
-    async def services(cls) -> [dict]:
+    async def services(cls):
         sao_paulo: str = "sa-east-1"
         nvirginia: str = "us-east-1"
 
